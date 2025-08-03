@@ -74,3 +74,32 @@ footer {
   padding: 1rem;
   background: #f0e68c;
 }
+
+.admin-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #ffb6c1;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-btn:hover {
+  background: #ff9aa2;
+}
+
+#messages {
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto 2rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}

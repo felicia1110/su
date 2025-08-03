@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <button id="admin-btn" class="admin-btn">後台</button>
   <header class="site-header">
     <h1>Sunny 花店</h1>
     <p>用花傳遞溫暖</p>
@@ -49,6 +50,10 @@
         <textarea id="message" name="message" required></textarea>
         <button type="submit">送出</button>
       </form>
+    </section>
+    <section id="messages" class="hidden">
+      <h2>留言資訊</h2>
+      <ul id="message-list"></ul>
     </section>
   </main>
   <footer>
