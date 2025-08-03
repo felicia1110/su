@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sunny 花店</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Sunny 花店</h1>
+    <p>用花传递温暖</p>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>欢迎来到我们的花店</h2>
+      <p>我们提供各种新鲜花卉与花束，满足您不同的送礼需求。</p>
+    </section>
+    <section id="products">
+      <h2>热销商品</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="玫瑰" />
+          <h3>红玫瑰</h3>
+          <p class="price">$20</p>
+          <button class="add-to-cart">加入购物车</button>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="百合" />
+          <h3>百合花束</h3>
+          <p class="price">$30</p>
+          <button class="add-to-cart">加入购物车</button>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="郁金香" />
+          <h3>郁金香</h3>
+          <p class="price">$25</p>
+          <button class="add-to-cart">加入购物车</button>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>联系我们</h2>
+      <form id="contact-form">
+        <label for="name">姓名</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">邮箱</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">留言</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">发送</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Sunny 花店</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
